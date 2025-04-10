@@ -1,0 +1,156 @@
+/* Add any custom styles here */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-link {
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #007bff;
+  }
+  
+  .off-width {
+    width: 80%;
+  }
+  
+  .off-height {
+    height: 20%;
+  }
+  
+  .dropdown-menu {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dropdown-item {
+    transition: background-color 0.3s ease;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f8f9fa;
+  }
+  
+  .input-group {
+    max-width: 400px;
+  }
+  
+  .form-control {
+    border-radius: 20px;
+  }
+  
+  .btn-close {
+    outline: none;
+  }
+
+.scroll
+{
+
+  transition: 0.5s;
+  
+}
+
+
+.fmf{
+    position: absolute;
+    right: 0;
+    bottom: 22px;
+    margin-right:115px;
+    
+}
+
+.fmf1{
+    position: absolute;
+    right: 0;
+    margin-right: 70px;
+    bottom: 22px;
+}
+.fmf2{
+    position: absolute;
+    right: 0;
+    
+    bottom: 12px;
+}
+
+
+.fmf4{
+    position: absolute;
+    right: 0;
+    margin-right: 12px;
+    bottom: 6px;
+}
+
+
+@media(min-width:991px)
+{
+    
+.fmf4{
+    position: absolute;
+    right: 0;
+    bottom: 15px;
+    margin-right:5px;
+    
+}
+}
+
+@media(max-width:767px)
+{
+    
+.fmf4{
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    margin-right:5px;
+    
+}
+}
+@media(max-width:575px)
+{
+    
+.fmf4{
+    position: absolute;
+    right: 0;
+    bottom: 15px;
+    margin-right:5px;
+    
+}
+}
+
+.fmf5{
+    position: absolute;
+    left: 0;
+    margin-left: 20px;
+    bottom: 6px;
+}
+
+
+
+
+@media(max-width:991px)
+{
+    
+
+.fmf2{
+    position: absolute;
+    right: 0;
+    
+    bottom: 6px;
+}
+
+
+} 
+
+@media(max-width:575px)
+{
+    
+
+.fmf2{
+    position: absolute;
+    right: 0;
+    
+    bottom: 20px;
+}
+
+
+} 
